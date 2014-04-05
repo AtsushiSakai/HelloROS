@@ -1,0 +1,12 @@
+<library path="scripts">
+  <class name="RvizRuler" type="RvizRuler.RvizRuler.MyPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Rular GUI App for Rviz
+    </description>
+    <qtgui>
+      <label>Rviz Ruler</label>
+      <icon type="theme">applications-other</icon>
+      <statustip>Rular GUI App for Rviz</statustip>
+    </qtgui>
+  </class>
+</library>

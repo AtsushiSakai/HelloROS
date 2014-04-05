@@ -1,0 +1,22 @@
+<package>
+  <description brief="RvizRuler">
+
+     RvizRuler
+
+  </description>
+  <author>atsushisakai</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/RvizRuler</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="rqt_gui"/>
+  <depend package="rqt_gui_py"/>
+  <depend package="tf"/>
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+
+</package>
+
+

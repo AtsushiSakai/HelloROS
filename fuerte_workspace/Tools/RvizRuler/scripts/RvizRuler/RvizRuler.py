@@ -24,8 +24,6 @@ import math
 from visualization_msgs.msg import Marker
 from geometry_msgs.msg import Point
 
-count=0
-
 class MyPlugin(Plugin):
   def __init__(self, context):
         super(MyPlugin, self).__init__(context)
@@ -35,7 +33,7 @@ class MyPlugin(Plugin):
         #Rvizから位置を受け取るsubscriver
         rospy.Subscriber('initialpose',PoseWithCovarianceStamped,self.InitialPoseCallback)
         global pub
-        pub = rospy.Publisher('line', Marker)
+        pub = rospy.Publisher('/RvizRuler/line', Marker)
         #グローバル変数の初期化
         global InitMsg
         InitMsg=0

@@ -3,6 +3,10 @@
 #
 # @brief rviz上で定規の機能をするrqtモジュール
 # @author Atsushi Sakai
+#
+# @par Copyright (c) 2014, Atsushi Sakai
+# All rights reserved.
+# License : Modified BSD Software License Agreement
 
 import roslib
 roslib.load_manifest('RvizRuler')
